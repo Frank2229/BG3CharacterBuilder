@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Cinzel&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Charm:wght@700&family=Cinzel&family=Macondo&display=swap');
+
+.label {
+    -fx-font-size: 20;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.header-label {
+    -fx-font-size: 23;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.spells-header-label {
+    -fx-font-size: 30;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.spell-category-label {
+    -fx-font-size: 20;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.skills-label {
+    -fx-font-size: 17;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.spells-label {
+    -fx-font-size: 10;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.backstory-label {
+    -fx-font-size: 17;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.modifier-label {
+    -fx-font-size: 20;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.radio-button {
+    -fx-font-size: 20;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #ddc88b;
+    -fx-background-color: black;
+    -fx-background-image: null;
+    -fx-border-radius: 10px;
+    -fx-padding: 0px;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: #ddc88b;
+    -fx-background-insets: 3;
+}
+
+.text-field {
+    -fx-border-width: 1px;
+    -fx-border-color: #ddc88b;
+    -fx-font-size: 15;
+    -fx-background-color: black;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.button {
+    -fx-background-color: linear-gradient(#611a1a 0%, #9a0101 100%);
+    -fx-background-radius: 8;
+    -fx-border: solid #b3a378 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 1 3 1 3;
+    -fx-font-size: 17;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.choice-box > .label {
+    -fx-background-color: black;
+    -fx-border-color: #ddc88b;
+    -fx-font-size: 15;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: linear-gradient(#8a7d5b 0%, #ddc88b 100%);
+}
+
+.choice-box .context-menu {
+    -fx-background-color: black;
+    -fx-border-color: #ddc88b;
+}
+
+.choice-box .menu-item:focused > .label {
+    -fx-text-fill: black;
+}
+
+.choice-box .menu-item > .label {
+    -fx-font-size: 15;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.check-box {
+    -fx-font-size: 10;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #ddc88b;
+}
+
+.check-box .box {
+	-fx-background-color: black;
+	-fx-border-color: #ddc88b;
+	-fx-border-radius: 0;
+}
+
+.check-box:selected .mark {
+	-fx-background-color: #ddc88b;
+}
+
+.menu-button-text {
+    -fx-font-size: 15;
+    -fx-font-family: 'Bona Nova';
+    -fx-text-fill: #d8cbad;
+}
+
+.cs-header-label {
+    -fx-font-size: 20;
+    -fx-font-family: 'Charm';
+    -fx-text-fill: #d9d3bf;
+}
+
+.cs-backstory-label {
+    -fx-font-size: 20;
+    -fx-font-family: 'Charm';
+    -fx-text-fill: #474130;
+}
+
+.cs-label {
+    -fx-font-size: 15;
+    -fx-font-family: 'Charm';
+    -fx-text-fill: #474130;
+}
+
+.tapestry-header-label {
+    -fx-font-size: 20;
+    -fx-font-family: 'Charm';
+    -fx-text-fill: #d9d3bf;
+}
+
+.tapestry-label {
+    -fx-font-size: 15;
+    -fx-font-family: 'Charm';
+    -fx-text-fill: #d9d3bf;
+}
